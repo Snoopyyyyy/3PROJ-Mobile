@@ -20,7 +20,7 @@ const MyTheme = {
 export default function App() {
   return (
     <NavigationContainer theme={MyTheme}>
-      <Stack.Navigator initialRouteName='Log in' screenOptions={{ headerShown: false }}>
+      <Stack.Navigator initialRouteName='IDriveNavigation' screenOptions={{ headerShown: false }}>
         <Stack.Screen name='Sign up' component={Signup} />
         <Stack.Screen name='Log in' component={Login} />
         <Stack.Screen name='IDriveNavigation' component={IDriveNavigation} />
