@@ -3,9 +3,9 @@ import { NavigationContainer, DefaultTheme } from '@react-navigation/native'
 import React from 'react';
 import 'react-native-gesture-handler';
 import { StyleSheet, View, Navigator } from 'react-native';
-import Signup from './Containers/Signup'
-import Login from './Containers/Login'
-import IDriveNavigation from './Containers/IDriveNavigation'
+import Signup from './Containers/auth/Signup'
+import Login from './Containers/auth/Login'
+import IDriveNavigation from './Containers/drive/IDriveNavigation'
 
 const Stack = createStackNavigator();
 

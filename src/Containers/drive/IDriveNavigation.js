@@ -8,8 +8,8 @@ import { useNavigation } from '@react-navigation/native'
 import IDriveScreen from './IDrive';
 import ProfileScreen from './Profile';
 import AddFileScreen from './AddFile';
-import IDriveLogoFocused from "../../img/idrive-only-logo.png";
-import IDriveLogo from "../../img/idrive-only-logo-bleu.png";
+import IDriveLogoFocused from "../../../img/idrive-only-logo.png";
+import IDriveLogo from "../../../img/idrive-only-logo-bleu.png";
 
 export default IDriveNavigation = () => {
 
