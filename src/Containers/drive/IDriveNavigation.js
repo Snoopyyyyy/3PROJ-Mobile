@@ -7,7 +7,6 @@ import { FontAwesome5 } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native'
 import IDriveScreen from './IDrive';
 import ProfileScreen from './Profile';
-import AddFileScreen from './AddFile';
 import IDriveLogoFocused from "../../../img/idrive-only-logo.png";
 import IDriveLogo from "../../../img/idrive-only-logo-bleu.png";
 
@@ -38,17 +37,6 @@ export default IDriveNavigation = () => {
                     tabBarStyle: {
                         backgroundColor: '#3B338E',
                     },
-                }}></Tab.Screen>
-
-                <Tab.Screen name={"Add File"} component={AddFileScreen} options={{
-                    tabBarIcon: ({ focused }) => (
-                        <View>
-                            <FontAwesome5 name="plus" size={20} color={focused ? '#fff' : '#5A4EDE'} />
-                        </View>
-                    ),
-                    tabBarStyle: {
-                        backgroundColor: '#3B338E',
-                    }
                 }}></Tab.Screen>
 
                 <Tab.Screen name={"Profile"} component={ProfileScreen} options={{

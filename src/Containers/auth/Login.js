@@ -7,8 +7,8 @@ import InputText from "../../components/inputText";
 
 export default function Login() {
     const navigation = useNavigation()
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
+    const [email, setEmail] = useState("dany@malo.com");
+    const [password, setPassword] = useState("dany");
 
     const submit = (event) => {
         event.preventDefault();

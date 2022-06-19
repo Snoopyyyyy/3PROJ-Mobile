@@ -210,8 +210,9 @@ exports.setTokenState = (setToken) => {
 
 exports.setToken = (token) => {
     let new_token = token !== 'null' ? token : ''
-    tokenState(new_token)
+    // tokenState(new_token)
     headers['Authorization'] = new_token;
+    // sessionStorage.setItem('token', new_token);
 }
 
 exports.getToken = () => {
